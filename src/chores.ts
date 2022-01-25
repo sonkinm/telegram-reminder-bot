@@ -26,8 +26,8 @@ export const chores: Chore[] = [
     reminderText: "Hei nyt! Bio on haissu kohta {} päivää. Oisko aika viedä?",
   },
   {
-    name: "Roskat",
-    command: "roskat",
+    name: "Kierrätys",
+    command: "kierratys",
     description: "roskis-run ilman bioo",
     points: 5,
   },
@@ -35,20 +35,6 @@ export const chores: Chore[] = [
     name: "Pullot",
     command: "pullot",
     description: "kauppaan",
-    points: 5,
-  },
-  {
-    name: "Neato",
-    command: "neato",
-    description: "laita Neato siivoo sun puolesta",
-    points: 5,
-    reminderAfterDays: 5,
-    reminderText: "Pölyjä kertyny lattialle {} päivää. Laita Neato pyörii!",
-  },
-  {
-    name: "Pyykit",
-    command: "pyykit",
-    description: "yks koneellinen",
     points: 5,
   },
   {
@@ -68,20 +54,6 @@ export const chores: Chore[] = [
     reminderAfterDays: 14,
     reminderText:
       "Pölyt tasolla ois hyvä pyyhkii välillä. Jo {} päivää pyyhkimättä!",
-  },
-  {
-    name: "Kukkien kastelu",
-    command: "kukat",
-    description: "kukkien kastelu",
-    points: 5,
-    reminderAfterDays: 7,
-    reminderText: "Kukat tarviis joskus vettä! Menny {} päivää ilman.",
-  },
-  {
-    name: "Pyykkien laitto kaappiin",
-    command: "kaapitus",
-    description: "pyykkien laitto kaappiin",
-    points: 5,
   },
   {
     name: "Suihkun siivous",
@@ -109,15 +81,6 @@ export const chores: Chore[] = [
     reminderAfterDays: 7,
     reminderText:
       "WC:n lavuaari ja ylä- ja alatasot putsattu {} päivää sitten. Pitäskö putsaa nopee?",
-  },
-  {
-    name: "Lakanat",
-    command: "lakanat",
-    description: "lakanoiden vaihto - sängystä kaikki",
-    points: 5,
-    reminderAfterDays: 21,
-    reminderText:
-      "Lakanat vaihdettu {} päivää sitten. Pitäskö vaihtaa nopee?",
   },
   {
     name: "Keittiö",
